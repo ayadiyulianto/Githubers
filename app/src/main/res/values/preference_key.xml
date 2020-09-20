@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_alarmOn" translatable="false">alarmOn</string>
+    <string name="key_alarmTime" translatable="false">alarmTime</string>
+    <string name="key_alarmMessage" translatable="false">alarmMessage</string>
+    <string name="key_changeLanguange" translatable="false">changeLanguange</string>
+</resources>

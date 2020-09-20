@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitHubers</string>
+    <string name="my_profile">Profil Saya</string>
+    <string name="repository">Repositori</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="search_hint">Cari username disini</string>
+    <string name="query_empty">Kueri tidak boleh kosong</string>
+    <string name="favorite">Favoritkan</string>
+    <string name="empty_result">Hasil pencarian kosong</string>
+    <string name="nav_clicked">Klik menu navigasi</string>
+    <string name="no_following">Tidak mengikuti siapapun</string>
+    <string name="no_followers">Tidak ada pengikut</string>
+    <string name="no_repos">Tidak ada repositori</string>
+    <string name="chat">Hubungi</string>
+    <string name="error">Terjadi Kesalahan!</string>
+    <string name="default_message">Hei, jangan lupa buka aplikasi Githubers</string>
+    <string name="info">Info</string>
+    <string name="avatar">Avatar</string>
+    <string name="logo">Logo</string>
+    <string name="stats">%1$d Mengikuti - %2$d Pengikut - %3$d Repositori</string>
+    <string name="added">Ditambahkan ke daftar Favorit</string>
+    <string name="removed">Dihapus dari daftar Favorit</string>
+    <string name="setting">Pengaturan</string>
+    <string name="alarm_summary_on">Pengingat aktif setiap hari</string>
+    <string name="alarm_summary_off">Jangan beri saya pengingat</string>
+    <string name="alarm_header">Alarm Manager</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="alarm_on">Hidupkan alarm</string>
+    <string name="language_header">Bahasa</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="alarm_time">Waktu Alarm</string>
+    <string name="set">ATUR</string>
+    <string name="cancel">BATAL</string>
+    <string name="appwidget_text">Favorite GitHubers</string>
+    <string name="empty_text">Daftar Kosong</string>
+</resources>

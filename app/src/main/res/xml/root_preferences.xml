@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/alarm_header"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_alarmOn"
+            app:summaryOff="@string/alarm_summary_off"
+            app:summaryOn="@string/alarm_summary_on"
+            app:title="@string/alarm_on"
+            app:icon="@drawable/ic_baseline_alarm_24"/>
+
+        <com.akusuka.githubers.utils.TimePreference
+            app:dependency="alarmOn"
+            app:key="@string/key_alarmTime"
+            app:defaultValue="09:00"
+            app:title="@string/alarm_time"
+            app:positiveButtonText="@string/set"
+            app:negativeButtonText="@string/cancel"/>
+
+        <EditTextPreference
+            app:dependency="alarmOn"
+            app:key="@string/key_alarmMessage"
+            app:title="@string/alarm_message" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/language_header"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="@string/key_changeLanguange"
+            app:title="@string/change_language"
+            app:icon="@drawable/ic_baseline_translate_24">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
